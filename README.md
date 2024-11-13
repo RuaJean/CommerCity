@@ -32,36 +32,26 @@ Con CommerCity, explorar locales comerciales nunca fue tan fácil, intuitivo y c
 - **Mapas y Visualización**: Folium y st.map() de Streamlit
 - **Control de Versiones**: Git y GitHub
 
-## 📂 Estructura del Proyecto
-
-commercity/ │ ├── app/ │ ├── pages/ │ ├── components/ │ └── utils/ │ ├── data/ │ ├── raw/ │ └── processed/ │ ├── db/ │ ├── scrapers/ │ └── helpers/ │ ├── tests/ │ └── deploy/
-
-bash
-Copiar código
 
 ## 🚀 Instalación
 
 1. Clona el repositorio y navega a la carpeta del proyecto:
-   ```bash
+   ``` 
    git clone https://github.com/jeanrua/commercity.git
    cd commercity
 Instala las dependencias:
 
-bash
-Copiar código
+ 
+ 
 pip install -r requirements.txt
 Configura las variables de entorno en un archivo .env.
 
 Inicializa la base de datos en PostgreSQL:
-
-sql
-Copiar código
+ 
 -- Configuración en SQL (ver más en /db/schema.sql)
 CREATE DATABASE commercity;
 Ejecuta la aplicación:
 
-bash
-Copiar código
 streamlit run app/app.py
 🤝 Colaboraciones
 Contribuciones son bienvenidas para hacer de CommerCity una herramienta más robusta y completa. Si tienes ideas para nuevas funcionalidades o mejoras, ¡abre un PR!
