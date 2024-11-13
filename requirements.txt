@@ -5,5 +5,5 @@ pandas
 psycopg2-binary
 SQLAlchemy
 geopy
-folium
+folium 
 streamlit-folium

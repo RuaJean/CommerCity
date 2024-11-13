@@ -119,7 +119,7 @@ variables = {
     }
 }
 
-# Iterar sobre las páginas y guardar los resultados
+# Iterar sobre las páginas y guardar los resultados 
 all_results = []
 current_page = 1
 while True:

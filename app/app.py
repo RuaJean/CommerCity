@@ -34,4 +34,5 @@ def render_page():
 
 # Ejecutar la página
 if __name__ == '__main__':
-    render_page()
+    render_page() 
+    
