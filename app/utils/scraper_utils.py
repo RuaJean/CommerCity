@@ -1,5 +1,5 @@
 import subprocess
-import streamlit as st
+import streamlit as st  
 
 def ejecutar_scraper():
     # Ejecutar el script finca_raiz_scraper.py
